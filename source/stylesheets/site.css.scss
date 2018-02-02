@@ -1,0 +1,63 @@
+body {
+  background-color: #2980B9;
+}
+
+.nav a {
+  color: white;
+  margin-top: 40px;
+}
+
+.nav a:hover {
+  color: black;
+}
+
+#dan-logo img {
+  height: 70px;
+  margin-left: 20px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #2980B9;
+}
+
+.jumbotron {
+  background-color: #19458c;
+}
+
+.jumbotron h2, p {
+  color: white;
+}
+
+
+// portfolio custom styles
+
+#port-title {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+}
+
+.class {
+  
+}
+
+//about custom styles
+
+.skill-list li {
+  color: white;
+  list-style: square inside;
+}
+
+.dan-pic img {
+  height: 350px;
+}
+
+
+
+
+
+
