@@ -53,10 +53,26 @@ body {
 }
 
 .dan-pic img {
-  height: 350px;
+  height: 300px;
 }
 
+.about-back-box {
+  background-color: white;
+  border-radius: 10px;
+}
 
+.about-back-box h2 {
+  text-decoration: underline;
+}
+
+.about-back-box p {
+  color: black;
+}
+
+.about-back-box li {
+  color: black;
+  font-size: 1.5em;
+}
 
 
 
