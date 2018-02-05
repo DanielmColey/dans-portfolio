@@ -59,6 +59,7 @@ body {
 .about-back-box {
   background-color: white;
   border-radius: 10px;
+  margin: 0px 10px 10px 10px;
 }
 
 .about-back-box h2 {
@@ -74,6 +75,33 @@ body {
   font-size: 1.5em;
 }
 
+.dan-pic img {
+  margin-left: 20px;
+}
 
+#map {
+  height: 60%;
+}
+
+.map-style h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.contact-back {
+  background-color: white;
+  border-radius: 10px;
+  margin: 30px 20px 0px 20px;
+}
+
+.contact-back a p {
+  color: blue;
+  font-size: 1.5em;
+}
+
+#email {
+  color: black;
+  font-size: 1.5em;
+}
 
 
