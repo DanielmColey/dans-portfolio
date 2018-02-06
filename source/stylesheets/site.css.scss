@@ -45,6 +45,34 @@ body {
   color: black;
 }
 
+.thumbnail {
+  height: 400px;
+}
+
+@media only screen and (min-width: 1350px) {
+  .thumbnail {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .thumbnail {
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .thumbnail {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .thumbnail {
+    height: 400px;
+  }
+}
+
 //about custom styles
 
 .skill-list li {
@@ -57,21 +85,23 @@ body {
 }
 
 .about-back-box {
-  background-color: white;
+  background-color: #19458c;
   border-radius: 10px;
-  margin: 0px 10px 10px 10px;
+  margin: 0px 10px 10px 0px;
 }
 
 .about-back-box h2 {
   text-decoration: underline;
+  font-family: serif;
+  color: white;
 }
 
 .about-back-box p {
-  color: black;
+  color: white;
 }
 
 .about-back-box li {
-  color: black;
+  color: white;
   font-size: 1.5em;
 }
 
@@ -105,9 +135,27 @@ body {
   font-size: 1.5em;
 }
 
-#email {
-  color: black;
-  font-size: 1.5em;
+.fa-github-square {
+  font-size: 3em;
+  color: white;
+  margin-right: 15px;
 }
+
+.fa-linkedin {
+  font-size: 3em;
+  color: white;
+  margin-right: 15px;
+}
+
+.fa-envelope-square {
+  font-size: 3em;
+  color: white;
+  margin-right: 15px;
+}
+
+
+
+
+
 
 
